@@ -89,8 +89,8 @@
 project-root/           
 ├── data/
 │   └── create_table.sql              # 테이블 생성 용 DB 쿼리
-├── images/                           # Streamlit 페이지들   
-├── pages/                            # README 프로필 이미지
+├── images/                           # README 이미지들
+├── pages/                            # Streamlit 페이지들
 │   ├── 01_entry_page.py              # main page
 │   ├── 02_nearby_parkinglots.py      # 목적지 주변 주차장 조회 페이지
 │   ├── 03_category_parkinglots.py    # 지역별 주차장 조회 페이지
@@ -110,8 +110,11 @@ project-root/
 ├── .gitignore                
 └── README.md                         # 프로젝트 소개 페이지
 ```
+### 프로젝트 다이어그램
+<img width="1307" height="1397" alt="image" src="./images/model_architecture.png" width="10%" height="10%" />
 
 ---
+
 ## 🛠️ 기술 스택
 - **Backend**: ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 - **Frontend**: ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white) 
